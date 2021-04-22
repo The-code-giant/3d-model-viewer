@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>gladiador </title>
         <link rel="icon" href="/favicon.ico" />
         <script
           type="module"
@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div dangerouslySetInnerHTML={{__html: `<model-viewer
-          src="gladiador.glb"
+          src="tshirts.glb"
           camera-controls
           style="width: 100vw; height: 100vh"
         >
